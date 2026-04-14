@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Library library = new Library();
 
-        // Pre-populating the library with some books
+        
         library.addBook(new Book(101, "Java Basics", "James Gosling"));
         library.addBook(new Book(102, "OOP Design", "Robert Martin"));
         library.addBook(new Book(103, "Data Structures", "Ellis Horowitz"));
